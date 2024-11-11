@@ -25,7 +25,7 @@
 ![](/img/comprobarubuntucliente.png)
 
 ### *Hacemos ping al servidor*
-**NO FUNCIONA**
+![](/img/pingubuntuaserver.png)
 
 ***
 ## **Configuración del cliente de Windows**
@@ -63,4 +63,25 @@
 5. Hacemos un restart del servicio dhcp con el comando `sudo service isc-dhcp-server restart` y posteriormente comprobamos que funcione con el comando `sudo service isc-dhcp-server status`
 
 ![](/img/comprobaciondhcpservice.png)
-### **
+
+6. Hacemos ping desde el cliente de Ubuntu para comprobar que el servidor dhcp responde
+
+![](img/pingdhcpubuntu.png)
+
+7. Hacemos ping desde el cliente de Windows para comprobar que el servidor dhcp responde
+
+![](/img/pingdhcpwindows.png)
+
+8. Verificamos los leases del servidor con el comando `dhcp-lease-list` y con `sudo nano /var/lib/dhcp/dhcpd.leases`
+
+![](/img/leaselist.png)
+
+![](/img/leaselist2.png)
+
+9. Reservamos una ip fija en el servidor DHCP
+
+![](/img/fixedaddresswindows.png)
+
+10. Comprobamos que se le asigna esa IP al cliente de Windows
+
+![](/img/ipasignada.png)
