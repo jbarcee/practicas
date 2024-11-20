@@ -4,7 +4,7 @@
 ## **Configuración del server de Ubuntu**
 
 ### *Cambio de hostname*
-![](/img/cambiohostnameserver.png)
+![](img/cambiohostnameserver.png)
 
 ### *Configuración de tarjetas de red*
 ![](img/tarjetasredserver.png)

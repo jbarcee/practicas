@@ -43,8 +43,11 @@ Servicio de DNS
 
 - Intenta resolver las siguientes preguntas con con las 3 herramientas presentadas: host,nslookup y dig.
   - Busca la IP asignada
-  
+  ![](img/1.png)
+  > Para hacerlo he utilizado los comandos `nslookup` y `host` seguido de la dirección de la cual queremos saber la ip, en este caso `gitlab.com`
+
   - Quien resuelve su DNS
+  ![]()
   - Cuál es el servidor de correo electrónico. Si hay varios, determina cual es primero por su prioridad.
   - Haz la búsqueda de forma autorizada, es decir, que el servidor que contesta sea uno de los registos NS del dominio.
 
