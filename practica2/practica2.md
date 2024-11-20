@@ -81,3 +81,7 @@ Servicio de DNS
 - Trabajo extra. Para mejorar tu calificación se te propone:
   - Añadir una zona de resolución inversa
   - Instalar Bind9 en el cliente Ubuntu y definirlo como DNS esclavo del primero.
+
+  dns1 IN A 192.168.101.1 <- Esta es la unica linea que no puede ser inventada
+  dns2 IN A 192.168.101.2
+  mail IN A 
