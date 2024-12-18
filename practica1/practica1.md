@@ -4,18 +4,22 @@
 ## **Configuración del server de Ubuntu**
 
 ### *Cambio de hostname*
+> `sudo nano /etc/hostname` y editamos el nombre de la máquina
 ![](img/cambiohostnameserver.png)
 
 ### *Configuración de tarjetas de red*
+> `sudo nano /etc/netplan/00-installer-config.yaml`
 ![](img/tarjetasredserver.png)
 
 ### *Comprobamos que se ha aplicacdo la configuración con el comando ip a*
+> `ip a`
 ![](img/comprobarip.png)
 
 ***
 ## **Configuración del cliente de Ubuntu**
 
 ### *Cambio de nombre de la máquina de Ubuntu*
+> `sudo nano /etc/hostname`
 ![](img/cambiohostnameubuntu.png)
 
 ### *Configurar tarjeta de red en Ubuntu*
